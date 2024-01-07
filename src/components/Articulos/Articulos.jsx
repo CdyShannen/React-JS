@@ -1,4 +1,4 @@
-import React from 'react'
+import './Articulos.css';
 
 const Articulos = ({img, titulo, children}) => {
   return (
