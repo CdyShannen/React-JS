@@ -12,3 +12,5 @@ const Articulos = ({img, titulo, children}) => {
 }
 
 export default Articulos
+
+//ESTO ES UN EJEMPLO DE OTRA CLASE, CHILDREN ESPECIFICAMENTE, DE SER NECESARIO LO PODEMOS SACAR

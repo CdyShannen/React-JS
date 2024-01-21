@@ -10,3 +10,5 @@ const CartWiget = () => {
 }
 
 export default CartWiget
+
+//ESTA ES LA IMAGEN DEL CARRITO DE COMPRAS EN EL NAVBAR, LA HICIMOS EN CLASES 

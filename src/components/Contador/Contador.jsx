@@ -29,3 +29,5 @@ const Contador = ({stock,inicial}) => {
 }
 
 export default Contador
+
+//EL CONTADOR LO ARMAMOS EN UNA CLASE, PODEMOS SUMARLO AL CONTADOR DE ARTICULOS DE LA TIENDA Y YA ESTA ARMADO POR ACA

@@ -1,3 +1,10 @@
-.imgEquipos {
-    width: 50px;
+
+.article {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img {
+    width: 300px;
 }
