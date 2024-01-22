@@ -1,5 +1,5 @@
 import {useState, useEffect } from "react";
-//import {getUnProducto} REVISAR ESTO EN LA CLASE 07
+import {getUnProducto} from "../../asyncmock";
 import ItemDetail from "../ItemDetail/ItemDetail";
 
 
@@ -7,16 +7,19 @@ import ItemDetail from "../ItemDetail/ItemDetail";
 import React from 'react'
 
 const ItemDetailContainer = () => {
-
     const [producto, setProducto] = useState (null);
 
     useEffect (() => {
-        
-    })
+        getUnProducto(2)
+        .then (res => setProducto(res))
+    }, [])
     
     return (
-    <div>ItemDetailContainer</div>
+    <div>
+      <Item Detail {...producto}/>
+      </div>
   )
 }
 
 export default ItemDetailContainer
+
